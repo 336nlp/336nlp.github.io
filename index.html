@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>336实验室 - 北京工业大学计算机学院</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-number">336</span>
+                <span class="logo-text">实验室</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">关于我们</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#research" class="nav-link">研究方向</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#facilities" class="nav-link">实验设施</a>
+                </li>
+                <li class="nav-item">
+                    <a href="achievements.html" class="nav-link">科研成果</a>
+                </li>
+                <li class="nav-item">
+                    <a href="team.html" class="nav-link">团队成员</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">联系我们</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主页部分 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">336</span> 实验室
+                </h1>
+                <p class="hero-subtitle">北京工业大学计算机学院</p>
+                <p class="hero-description">
+                    专注于大语言模型、自然语言处理等前沿技术研究
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">了解更多</a>
+                    <a href="#contact" class="btn btn-secondary">联系我们</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="floating-box" data-speed="2">AI</div>
+                    <div class="floating-box" data-speed="3">NLP</div>
+                    <div class="floating-box" data-speed="1.5">LLM</div>
+                    <div class="floating-box" data-speed="2.5">ML</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于336实验室</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>我们的使命</h3>
+                    <p>
+                        336实验室是北京工业大学计算机学院的一家专注于大语言模型、自然语言处理等领域的高校实验室。
+                        我们致力于通过科技创新，提升研究生在学习、工作、生活中的体验，让每一个学生都能得到能力上的提升。
+                    </p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI技术前沿</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <span>团队协作</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>学术优秀</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="lab_photo.jpg" alt="336实验室实际环境">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 研究方向 -->
+    <section id="research" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">研究方向</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>大语言模型</h3>
+                    <p>研究大规模语言模型的训练、优化和应用，探索AI在自然语言理解和生成方面的前沿技术。</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>自然语言处理</h3>
+                    <p>深入研究文本分析、情感分析、机器翻译等NLP核心技术，推动语言智能的发展。</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>机器学习</h3>
+                    <p>探索深度学习、强化学习等机器学习算法，为人工智能应用提供理论基础。</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>应用创新</h3>
+                    <p>将前沿技术转化为实际应用，解决真实世界中的复杂问题，创造社会价值。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 实验设施 -->
+    <section id="facilities" class="section">
+        <div class="container">
+            <h2 class="section-title">实验设施</h2>
+            <p class="section-subtitle">实验室设施齐全，为研究工作提供全方位支持</p>
+            <div class="facilities-grid">
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h4>计算设备</h4>
+                    <p>高性能主机、专业显示器，进组即配</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-chair"></i>
+                    </div>
+                    <h4>办公环境</h4>
+                    <p>人体工学椅，舒适的工作环境</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h4>服务器资源</h4>
+                    <p>充足的计算资源，支持大规模实验</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h4>办公设备</h4>
+                    <p>打印机等办公设备一应俱全</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h4>生活设施</h4>
+                    <p>饮水机等生活设施完善</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h4>网络环境</h4>
+                    <p>高速网络，保障研究工作顺畅</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>加入我们</h3>
+                    <p>欢迎对AI、NLP等领域感兴趣的同学加入336实验室大家庭！</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>北京工业大学计算机学院</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ypdu@bjut.edu.cn</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>010-67396123</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="留言内容" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 336实验室 - 北京工业大学计算机学院</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">首页</a>
+                    <a href="index.html#about">关于我们</a>
+                    <a href="index.html#research">研究方向</a>
+                    <a href="index.html#facilities">实验设施</a>
+                    <a href="achievements.html">科研成果</a>
+                    <a href="team.html">团队成员</a>
+                    <a href="index.html#contact">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
